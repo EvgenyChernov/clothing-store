@@ -16,7 +16,6 @@
         <div class="header__left">
             <a href="#" class="logo">
                 <img src="img/logo.png" class="logo__img" alt="logo"> BRAN<span class="pink">D</span>
-
             </a>
             <form action="#" class="header__form">
                 <details class="browse">
@@ -228,9 +227,13 @@
                 <h2 class="reviews__h2">Subscribe</h2>
                 <h3 class="reviews__h3">FOR OUR NEWLETTER AND PROMOTION</h3>
                 <form class="reviews-box">
-                    <input type="text" placeholder="Enter Your Email" class="reviews__input">
+                    <div class="form__field"></div>
+                    <input type="email" name="name" placeholder="Enter Your Email" class="reviews__input"
+                        maxlength="18">
+                    <span class="form__error">This field should contain e-mail in the format someting@site.com</span>
                     <a href="#" class="reviews_button">Subscribe</a>
-                </form>
+            </div>
+            </form>
             </div>
         </section>
         <nav class="nav__box center">

@@ -579,11 +579,16 @@ details[open] {
 
 .reviews__input {
     height: 46px;
-    width: 306px;
+    width: 304px;
     background-color: #e1e1e1;
     border-radius: 23px 0 0 23px;
     padding-left: 28px;
-    border: 0;
+    outline: none;
+
+
+    border: 1px solid #ccc;
+
+    box-sizing: border-box;
 }
 
 .reviews_button {
@@ -602,13 +607,38 @@ details[open] {
     background-color: #e44258;
 }
 
+.reviews-box {
+    position: relative;
+}
+
+.form__error {
+    color: red;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 6px;
+    display: none;
+    position: absolute;
+    top: 42px;
+}
+
+input:valid:not(:placeholder-shown) {
+    border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border-color: red;
+}
+
+input:invalid:not(:placeholder-shown)+.form__error {
+    display: inline-block;
+}
+
 .bg__pink {
     background-color: #f16d7f;
 }
 
 .nav__box {
     min-height: 458px;
-
 }
 
 .nav__content {
@@ -620,7 +650,6 @@ details[open] {
 
 .nav__item {
     max-width: 430px;
-
 }
 
 .nav__box__p {
@@ -702,5 +731,4 @@ details[open] {
     background-image: url(../img/in-social-img.png);
     background-repeat: no-repeat;
     background-position: center;
-
 }
