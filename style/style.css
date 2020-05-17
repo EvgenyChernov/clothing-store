@@ -91,10 +91,6 @@ summary {
     display: block;
 }
 
-summary::-webkit-details-marker {
-    display: none;
-}
-
 summary::after {
     content: ' \25BC';
     padding-right: 0.5em;
@@ -402,7 +398,6 @@ details[open] {
     color: #ffffff;
     letter-spacing: 0.03em;
     clear: both;
-    margin-block-start: 0;
 }
 
 .offer-slider__h3 {
@@ -411,8 +406,6 @@ details[open] {
     font-weight: bold;
     color: #ffffff;
     letter-spacing: 0.03em;
-    -webkit-transform: scale(0.89);
-    -ms-transform: scale(0.89);
     transform: scale(0.89);
     text-align: left;
 }
