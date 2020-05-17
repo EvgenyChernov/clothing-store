@@ -359,9 +359,13 @@ details[open] {
     color: #ffffff;
     text-align: center;
     letter-spacing: 0.03em;
-    line-height: 43px;
+    line-height: 48px;
     height: 48px;
     padding: 0 24px;
+}
+
+.button__allProduct:hover {
+    background-color: #e44258;
 }
 
 .offer-slider {
@@ -415,6 +419,15 @@ details[open] {
     padding-top: 48px;
     padding-left: 36px;
     padding-right: 43px;
+}
+
+.offer-slider__a:hover .offer-slider__h4,
+.offer-slider__a:hover .offer-slider__p {
+    color: lightslategrey;
+}
+
+.offer-slider__a:hover .offer-slider__img {
+    opacity: 50%;
 }
 
 .offer-slider__items {
@@ -500,12 +513,16 @@ details[open] {
     padding-top: 50px;
 }
 
-.pagination {
+.pagination__block {
     display: inline-block;
     height: 4px;
     width: 38px;
     background-color: #d6d6d6;
     margin: 5px;
+}
+
+.pagination:hover .pagination__block {
+    background-color: #e44258;
 }
 
 .reviews__content-right {
@@ -557,6 +574,10 @@ details[open] {
     text-align: center;
     letter-spacing: 0.03em;
     line-height: 46px;
+}
+
+.reviews_button:hover {
+    background-color: #e44258;
 }
 
 .bg__pink {
@@ -612,7 +633,52 @@ details[open] {
     line-height: 30px;
 }
 
+.nav__box__link:hover {
+    color: #252525;
+}
+
 .footer {
     height: 79px;
     background-color: #e6e6e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__kopirayt {
+    font-size: 16px;
+    color: #7a7a7a;
+    text-align: right;
+    letter-spacing: 0.03em;
+    line-height: 42px;
+}
+
+.footer__contetnt-right {
+    display: inline-flex;
+    text-align: right;
+    width: auto !important;
+    position: static !important;
+}
+
+.social__link {
+    display: inline-flex;
+    height: 32px;
+    width: 32px;
+    color: #bcbcbc;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+
+.social__link:hover {
+    color: #f7f7f8;
+    background-color: #f16d7f;
+}
+
+.in-social-logo {
+    background-image: url(../img/in-social-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
