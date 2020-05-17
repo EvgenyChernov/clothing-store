@@ -91,6 +91,9 @@ summary {
     display: block;
 }
 
+summary::-webkit-details-marker {
+    display: none;
+}
 summary::after {
     content: ' \25BC';
     padding-right: 0.5em;
