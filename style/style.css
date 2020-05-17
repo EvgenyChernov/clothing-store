@@ -66,9 +66,11 @@ a {
     line-height: 32px;
     text-transform: uppercase;
 }
+
 .logo:hover {
     text-shadow: 0px 1px 0.5px black, 0 0 1px #e44258;
 }
+
 .logo__img {
     margin-right: 13px;
 }
@@ -87,6 +89,10 @@ a {
     padding-left: 15px;
 }
 
+.browse:hover {
+    background-color: #eeeeee;
+}
+
 summary {
     display: block;
 }
@@ -94,6 +100,7 @@ summary {
 summary::-webkit-details-marker {
     display: none;
 }
+
 summary::after {
     content: ' \25BC';
     padding-right: 0.5em;
@@ -128,9 +135,11 @@ details[open] {
     line-height: 40px;
     background-color: #ffffff;
 }
+
 .button__search:hover {
-    background-color: #f9f9f9;
+    background-color: #eeeeee;
 }
+
 .button__account {
     display: inline-block;
     height: 38px;
@@ -142,9 +151,11 @@ details[open] {
     padding-left: 19px;
     padding-right: 9px;
 }
+
 .button__account:hover {
     background-color: #e44258;
 }
+
 .menu {
     list-style-type: none;
     display: flex;
@@ -160,10 +171,12 @@ details[open] {
     text-transform: uppercase;
     line-height: 10px;
 }
+
 .menu__list:hover {
     box-shadow: 0px 0px 2px 0px rgb(0, 0, 0);
     text-shadow: 0px 0px 0.5px black, 0 0 1px white;
 }
+
 .promo {
     height: 614px;
     background-color: #e8e8e8;
@@ -371,9 +384,11 @@ details[open] {
     height: 48px;
     padding: 0 24px;
 }
-.button__allProduct img{
+
+.button__allProduct img {
     padding-left: 8px;
 }
+
 .button__allProduct:hover {
     background-color: #e44258;
 }
